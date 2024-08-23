@@ -1,0 +1,72 @@
+/* Food Categories Section */
+.food-categories {
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.food-categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.category {
+    margin-bottom: 50px;
+}
+
+.category h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #ffa500;
+}
+
+.dish {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #111;
+    transition: background-color 0.3s ease;
+}
+
+.dish:hover {
+    background-color: #222;
+}
+
+.dish-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.dish-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffa500;
+}
+
+.dish-info p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.dish-image {
+    width: 150px;
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-right: 80px;
+}
